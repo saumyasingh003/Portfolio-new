@@ -31,13 +31,11 @@ const Hero = () => {
     flex-col-reverse
     md:flex-row
     items-center
-    gap-2
-    sm:gap-3
-    md:gap-4
+
     justify-center
     lg:justify-between
 
-    
+    gap-6
    
 
     px-4
@@ -58,15 +56,15 @@ const Hero = () => {
 
       {/* LEFT SIDE */}
       <div className="w-full max-w-xl text-center md:text-left text-black">
-        <p className="text-sm sm:text-base md:text-lg lg:text-3xl font-semibold mb-3 font-quintessential relative ml-32">
+        <p className="text-sm sm:text-base md:text-lg lg:text-3xl font-semibold mb-3 font-quintessential">
           Hi!, I am
         </p>
 
-        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 font-quintessential ml-32 relative">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 font-quintessential">
           Saumya Singh
         </h1>
 
-        <p className="text-sm sm:text-base md:text-lg lg:text-2xl mb-8 font-quintessential  ml-32 relative">
+        <p className="text-sm sm:text-base md:text-lg lg:text-2xl mb-8 font-quintessential">
           I am into{" "}
           <span className="font-semibold underline-offset-4">
             {text}
@@ -75,7 +73,7 @@ const Hero = () => {
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-8  ml-32 relative">
+        <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-8">
           <Button
             variant="outline"
             className="border-black text-black rounded-full px-6 py-3 text-sm md:text-base hover:bg-black hover:text-white transition"
@@ -85,7 +83,7 @@ const Hero = () => {
           </Button>
 
           <Button
-            className="bg-black   text-white rounded-full px-6 py-3 text-sm md:text-base border border-black hover:bg-white hover:text-black transition"
+            className="bg-black text-white rounded-full px-6 py-3 text-sm md:text-base border border-black hover:bg-white hover:text-black transition"
             asChild
           >
             <a
@@ -98,7 +96,7 @@ const Hero = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex gap-4 justify-center md:justify-start ml-32 relative ">
+        <div className="flex gap-4 justify-center md:justify-start">
           <a
             href="https://www.linkedin.com/in/saumyasingh003/"
             target="_blank"
