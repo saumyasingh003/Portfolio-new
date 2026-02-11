@@ -56,7 +56,7 @@ const Hero = () => {
 
       {/* LEFT SIDE */}
       <div className="w-full max-w-xl text-center md:text-left text-black">
-        <p className="text-sm sm:text-base md:text-lg lg:text-3xl font-semibold mb-3 font-quintessential">
+        <p className="text-sm sm:text-base md:text-lg lg:text-3xl font-semibold mb-3 lg:-mt-10 font-quintessential">
           Hi!, I am
         </p>
 
@@ -145,9 +145,9 @@ const Hero = () => {
                 <Image
                   src={mainimage}
                   alt="profile"
-                  fill
-                  priority
-                  className="object-cover object-center"
+                  
+                  
+                  className="object-cover"
                 />
               </div>
             </div>
