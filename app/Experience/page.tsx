@@ -15,7 +15,8 @@ const Experience = () => {
         lg:px-32
       "
     >
-        <hr className="border-t border-black mb-14" />
+      <hr className="border-t border-black mb-14" />
+
       {/* Heading */}
       <h2 className="text-2xl sm:text-3xl md:text-6xl font-bold uppercase text-black text-center mb-12 md:mb-16">
         Experiences
@@ -26,155 +27,125 @@ const Experience = () => {
 
         {/* ===== ITEM 1 ===== */}
         <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2">
-
           <div className="flex items-start gap-4">
-            <img src="/rizhobee.png" alt="Rizhobee logo" className="w-20 h-20 object-cover rounded-md " />
+            <img src="/rizhobee.png" alt="Rizhobee logo" className="w-20 h-20 object-cover rounded-md" />
             <div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black">
                 Rizhobee
               </h3>
-
               <p className="mt-1 font-medium text-black">
                 Full Stack Developer
               </p>
-
               <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
                 Feb 2025 – Apr 2025
               </p>
             </div>
           </div>
 
-          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5 ">
+          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5">
             <li>
               Independently designed and developed a full-fledged, responsive
-              web platform, including user interface, server logic, and database
-              architecture.
+              web platform, including user interface, server logic, and database architecture.
             </li>
             <li>
-              Developed and seamlessly integrated RESTful APIs to ensure secure,
-              efficient, and consistent data flow across the tech stack.
+              Developed and integrated RESTful APIs to ensure secure and efficient data flow.
             </li>
             <li>
-              Leveraged AWS services for scalable deployment, optimized
-              performance, and dependable cloud storage solutions.
+              Leveraged AWS services for scalable deployment and optimized performance.
             </li>
           </ul>
         </div>
 
         {/* ===== ITEM 2 ===== */}
         <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2">
-
           <div className="flex items-start gap-4">
             <img src="/airmuse.jpg" alt="Airmuse logo" className="w-20 h-20 object-cover rounded-md" />
             <div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black">
                 Airmuse
               </h3>
-
               <p className="mt-1 font-medium text-black">
                 Frontend Developer
               </p>
-
               <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
                 Sep 2024 – Nov 2024
               </p>
             </div>
           </div>
 
-          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5 ">
+          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5">
             <li>
-              Integrated 10+ RESTful APIs with the frontend, boosting feature
-              reliability and improving technical proficiency.
+              Integrated 10+ RESTful APIs with the frontend, improving reliability and performance.
             </li>
             <li>
-              Designed and developed 15+ responsive, user-friendly UIs with
-              intuitive UX, increasing user engagement by 30%.
+              Designed 15+ responsive and user-friendly UIs, increasing engagement by 30%.
             </li>
             <li>
-              Collaborated in an agile team of 5+ using React, JavaScript, HTML,
-              and CSS, contributing innovative solutions to meet project goals.
+              Collaborated in an agile team using React, JavaScript, HTML, and CSS.
             </li>
           </ul>
         </div>
 
-    {/* ===== ITEM 3 ===== */}
-  {/* Salesqueen */}
-   <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2"></div>
-  <div className="grid gap-6 md:grid-cols-2">
-    <div className="flex items-start gap-4">
-      <img
-        src="/salesqueen.jpg"
-        alt="Salesqueen logo"
-        className="w-20 h-20 object-cover rounded-md"
-      />
-      <div>
-        <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black">
-          Salesqueen Software Solutions
-        </h3>
+        {/* ===== ITEM 3 ===== */}
+        <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2">
+          <div className="flex items-start gap-4">
+            <img src="/salesqueen.jpg" alt="Salesqueen logo" className="w-20 h-20 object-cover rounded-md" />
+            <div>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black">
+                Salesqueen Software Solutions
+              </h3>
+              <p className="mt-1 font-medium text-black">
+                Frontend Developer
+              </p>
+              <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
+                May 2024 – Aug 2024
+              </p>
+            </div>
+          </div>
 
-        <p className="mt-1 font-medium text-black">
-          Frontend Developer
-        </p>
-
-        <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
-          May 2024 – Aug 2024
-        </p>
-      </div>
-    </div>
-
-    <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5">
-      <li>
-        Developed modular and reusable React components, accelerating feature
-        development across multiple projects.
-      </li>
-      <li>
-        Debugged and optimized frontend logic and API integrations, reducing
-        UI-related issues by approximately 30%.
-      </li>
-      <li>
-        Delivered well-tested, production-ready features aligned with client
-        requirements and project timelines.
-      </li>
-    </ul>
-  </div> </div>
-
+          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5">
+            <li>
+              Developed modular and reusable React components to speed up development.
+            </li>
+            <li>
+              Debugged and optimized frontend logic and API integrations, reducing UI issues by ~30%.
+            </li>
+            <li>
+              Delivered production-ready features aligned with client requirements.
+            </li>
+          </ul>
+        </div>
 
         {/* ===== ITEM 4 ===== */}
         <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2">
-
           <div className="flex items-start gap-4">
             <img src="/iit.png" alt="IIT Patna logo" className="w-20 h-20 object-cover rounded-md" />
             <div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black">
                 IIT Patna
               </h3>
-
               <p className="mt-1 font-medium text-black">
                 Research Intern
               </p>
-
               <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
                 Mar 2024 – Jun 2024
               </p>
             </div>
           </div>
 
-          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5 ">
+          <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5">
             <li>
-              Implemented diverse ML algorithms (e.g., linear regression,
-              logistic regression, K-fold cross-validation) on varied datasets
-              for predictive modelling.
+              Implemented ML algorithms such as linear and logistic regression with cross-validation.
             </li>
             <li>
-              Collaborated on interdisciplinary teams to analyse results and
-              propose data-driven solutions.
+              Collaborated on data-driven solutions in interdisciplinary teams.
             </li>
             <li>
-              Provided concise summaries of research findings during IT research
-              internship.
+              Presented research findings and insights effectively.
             </li>
           </ul>
         </div>
+
       </div>
     </section>
   );
