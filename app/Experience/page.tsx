@@ -39,7 +39,7 @@ const Experience = () => {
               </p>
 
               <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
-                Mar 2025 – Apr 2025
+                Feb 2025 – Apr 2025
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Experience = () => {
               </p>
 
               <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
-                Sep 2024 – Oct 2024
+                Sep 2024 – Nov 2024
               </p>
             </div>
           </div>
