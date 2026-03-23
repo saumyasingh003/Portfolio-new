@@ -97,7 +97,47 @@ const Experience = () => {
           </ul>
         </div>
 
-        {/* ===== ITEM 3 ===== */}
+    {/* ===== ITEM 3 ===== */}
+  {/* Salesqueen */}
+  <div className="grid gap-6 md:grid-cols-2">
+    <div className="flex items-start gap-4">
+      <img
+        src="/salesqueen.jpg"
+        alt="Salesqueen logo"
+        className="w-20 h-20 object-cover rounded-md"
+      />
+      <div>
+        <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black">
+          Salesqueen Software Solutions
+        </h3>
+
+        <p className="mt-1 font-medium text-black">
+          Frontend Developer
+        </p>
+
+        <p className="text-xs sm:text-sm uppercase tracking-widest text-black/70">
+          May 2024 – Aug 2024
+        </p>
+      </div>
+    </div>
+
+    <ul className="space-y-3 text-sm sm:text-base text-black/80 leading-relaxed list-disc pl-5">
+      <li>
+        Developed modular and reusable React components, accelerating feature
+        development across multiple projects.
+      </li>
+      <li>
+        Debugged and optimized frontend logic and API integrations, reducing
+        UI-related issues by approximately 30%.
+      </li>
+      <li>
+        Delivered well-tested, production-ready features aligned with client
+        requirements and project timelines.
+      </li>
+    </ul>
+  </div>
+
+        {/* ===== ITEM 4 ===== */}
         <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2">
 
           <div className="flex items-start gap-4">

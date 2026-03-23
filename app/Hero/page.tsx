@@ -87,7 +87,7 @@ const Hero = () => {
             asChild
           >
             <a
-              href="https://drive.google.com/file/d/17PoL9QqlY8l_OUSzX-dIZgptT449qfrf/view?usp=sharing"
+              href="https://drive.google.com/file/d/17kqZg6auS3sUS_HUhOIhXrWmLs45JbKs/view?usp=sharing"
               target="_blank"
             >
               Download CV
