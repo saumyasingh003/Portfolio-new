@@ -99,6 +99,7 @@ const Experience = () => {
 
     {/* ===== ITEM 3 ===== */}
   {/* Salesqueen */}
+   <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2"></div>
   <div className="grid gap-6 md:grid-cols-2">
     <div className="flex items-start gap-4">
       <img
@@ -135,7 +136,8 @@ const Experience = () => {
         requirements and project timelines.
       </li>
     </ul>
-  </div>
+  </div> </div>
+
 
         {/* ===== ITEM 4 ===== */}
         <div className="border border-black p-5 sm:p-7 md:p-10 grid gap-6 md:grid-cols-2">
